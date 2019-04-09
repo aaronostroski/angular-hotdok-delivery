@@ -1,1 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white !important;
+}
+
+section{
+    margin-top: 20px;
+}
+
+
+/* HEADER */
+
+.material-icons.md-18{
+    font-size: 35px;
+    color: black;
+}
+
+.material-icons.md-20{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav.bg-color{
+    background-color: #ff0000;
+}
+
+ul>li>a.nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.2em;
+}
+
+ul>li>a:hover{
+    background: black;
+    border-radius: 5px;
+    color: white;   
+}
+
+.text-brand{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 10px;
+    color: black;
+}
+
+.img-brand{
+	border: 1px solid;
+	background-size: contain;
+    color: transparent;
+}
+
+/* END HEADER */
+
+/* BODY HOME */
+
+section>div>h4{
+    background: #f2f2f2;
+    border-radius: 8px 8px 8px 8px;
+    padding: 4px;
+}
+
+.material-icons.notificationicon{
+    font-size: 20px;
+}
+
+a.nohover:hover{
+    text-decoration: none;
+}
+
+.box-text{
+    margin: 7px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 1.05em;
+}
+
+.box-model{
+    background: #f2f2f2;
+    border-radius: 8px 8px 8px 8px;
+    height: 120px;
+}
+
+.box-img{
+    float: left;
+    display: block;
+    height: 120px;
+    width: 100px;
+    padding: 7px;
+    border-right: double 2px #f2f2f2;
+}
+
+.box-item{
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-item.font-weight-bold{
+    font-size: 100px;
+}
+
+.jumbotron{
+    text-align: center;
+    background: #f2f2f2 !important;
+    
+}
+
+.btn.btn-lg{
+    background: transparent;
+    color: #ff0000;
+    border: solid 2px #ff0000;
+    border-radius: 8px;
+    width: 200px;
+    letter-spacing: 0.2em;
+    font-family: "montserrat";
+    font-weight: bold;
+    transition: 0.8s;
+
+}
+
+a.btn.btn-lg:hover{
+    color:#ffffff;
+    background: #ff0000;
+
+}
+/* end BODY HOME */
+
